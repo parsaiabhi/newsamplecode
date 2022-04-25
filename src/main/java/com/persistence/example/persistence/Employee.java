@@ -2,7 +2,9 @@ package com.persistence.example.persistence;
 
 public class Employee {
 
-
+    {
+        System.out.println("one more instance block added in Employee");
+    }
     static{
         System.out.println("hello from  employee static block");
     }

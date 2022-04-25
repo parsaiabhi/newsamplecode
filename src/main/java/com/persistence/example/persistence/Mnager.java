@@ -10,6 +10,9 @@ public class Mnager extends  Employee{
     }
 
     {
+        System.out.println("one more instance block in Manager");
+    }
+    {
         System.out.println("hello from Manager instance block");
     }
 
